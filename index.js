@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config
-const stripe = require("stripe")(process.env.STRIPE-KEY);
+const stripe = require("stripe")(process.env.STRIPE_KEY);
 // ...
 
 // const { onRequest } = require("firebase-functions/v2/https");
